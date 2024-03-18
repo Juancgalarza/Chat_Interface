@@ -1,0 +1,8 @@
+.bg-yellow-400 {
+    background-color: var(--yellow-400) !important;
+}
+
+
+.surface-border {
+    border-color: var(--surface-border) !important;
+}

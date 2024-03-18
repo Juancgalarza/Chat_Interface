@@ -1,0 +1,28 @@
+.layout-content {
+    padding: 6rem 2rem 2rem;
+    padding-top: 6rem;
+    flex: 1 1 auto;
+
+    /* background-color: rgb(42, 42, 42); */
+}
+
+
+@media screen and (max-width: 991px) {
+    .layout-wrapper .layout-content-wrapper .layout-content {
+        padding-top: 2rem;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .md\:flex-row {
+      flex-direction: row !important;
+    }
+  }
+
+
+
+  .overflow-y-auto {
+    overflow-y: auto !important;
+  }
